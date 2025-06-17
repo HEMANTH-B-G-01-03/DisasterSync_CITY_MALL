@@ -53,3 +53,14 @@ app.use('/geocode', geocodeRoutes);
 
 const socialMediaRoutes = require('./routes/social-media');
 app.use('/disasters', socialMediaRoutes);
+
+
+const resourceRoutes = require('./routes/resources');
+app.use('/disasters', resourceRoutes);
+
+const updatesRoutes = require('./routes/updates');
+app.use('/disasters', updatesRoutes);
+
+
+const verifyImageRoutes = require('./routes/verify-image');
+app.use('/disasters', verifyImageRoutes);

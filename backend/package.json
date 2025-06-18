@@ -12,7 +12,7 @@
   "type": "commonjs",
   "dependencies": {
     "@mapbox/mapbox-sdk": "^0.16.1",
-    "@supabase/supabase-js": "github:supabase/supabase-js",
+    "@supabase/supabase-js": "^2.45.4",
     "axios": "^1.10.0",
     "cheerio": "^1.1.0",
     "dotenv": "^16.5.0",
